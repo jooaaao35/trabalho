@@ -1,0 +1,115 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #050f1f;
+    color: #ddd;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #70b8ff;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 12px 30px;
+    background-color: #33aaff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2277cc;
+}
+
+/* Página principal */
+.pagina-principal {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Página secundária */
+.pagina-secundaria {
+    max-width: 900px;
+    background-color: #0a1a33;
+    padding: 2rem;
+    border-radius: 12px;
+    display: flex;
+    gap: 2rem;
+    color: #ddd;
+    align-items: center;
+}
+
+.pagina-secundaria .texto {
+    flex: 1;
+}
+
+.pagina-secundaria h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.pagina-secundaria h3 span {
+    color: #39baff;
+    font-weight: 600;
+}
+
+.pagina-secundaria p {
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.botoes a {
+    display: inline-block;
+    padding: 10px 25px;
+    margin-right: 10px;
+    background-color: #39baff;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.botoes a:hover {
+    background-color: #1a9adf;
+}
+
+.imagem {
+    flex: 0 0 180px;
+    border: 2px solid #39baff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.imagem img {
+    width: 100%;
+    display: block;
+    filter: grayscale(60%);
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+.imagem img:hover {
+    filter: grayscale(0%);
+}
